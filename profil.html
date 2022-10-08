@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+ <title>Profil Diri</title>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body style="background-color:rgb(54, 150, 119);"> 
+
+    <div id="app">
+       <h2>&#128513;{{message}}&#128513</h2>
+       <p>{{nama}}</p>
+       <P>{{nim}}</P>
+       <P>{{jurusan}}</P>
+       <p>{{fakultas}}</p>
+       <p>{{alamat}}</p>
+       <p>{{jenis_kelamin}}</p>
+       <p>{{agama}}</p>
+      </div>
+
+      <script type="text/javascript">
+                var vm = new Vue({
+        el: '#app',
+        data: {
+            message: 'Profil Mahasiswi UIN SUSKA RIAU',
+            nama:   'Nama : Nabilla Saumi Putri',
+            nim: 'Nim : 11950125147',
+            jurusan:  'Jurusan : Teknik Informatika',
+            fakultas:   'Fakultas : Sains dan teknologi',
+            alamat: 'Alamat : Villa Indah Paus Blok C No.39',
+            jenis_kelamin: 'Jenis Kelamin : Perempuan',
+            agama: 'Agama : Islam'
+        }
+        })
+      </script>
+</html>
+</body>
